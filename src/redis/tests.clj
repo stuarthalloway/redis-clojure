@@ -1,7 +1,7 @@
 (ns redis.tests
   (:refer-clojure :exclude [get set keys type sort])
   (:require redis)
-  (:use [clojure.contrib.test-is]))
+  (:use [clojure.test]))
 
 
 (defn server-fixture [f]
