@@ -54,7 +54,7 @@
         <path location="${clojure-contrib.jar}"/>
       </classpath>
       <arg value="-e" />
-      <arg value="(require 'redis.tests 'redis.tests.internal) (clojure.contrib.test-is/run-tests 'redis.tests 'redis.tests.internal)" />
+      <arg value="(require 'redis.tests 'redis.tests.internal) (clojure.test/run-tests 'redis.tests 'redis.tests.internal)" />
     </java>
   </target>
 
